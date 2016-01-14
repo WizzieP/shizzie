@@ -1,9 +1,10 @@
 import React from 'react'
+import { render } from 'react-dom'
 
 class Main extends React.Component {
     render() {
-        return <h1>Foo</h1>
+        return <h1>dasddas</h1>
     }
 }
 
-React.render(<Main/>, document.getElementById('app'));
+render(<Main/>, document.getElementById('root'));
